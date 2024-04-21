@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="../coursework/css/style.css"/>
+    <head>
+        <title>MUSICALS - set08101-web-technologies Coursework</title>
+    
+    </head>
+
+    <body>
+
+        <!-- Header Section -->
+        <header> 
+            <img class="banner" src="/coursework/images/banner.jpg"/>
+            <h1>MUSICALS</h1>
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+            <li><a href="index.html"> Home   </a></li>
+            <li><a href="Heathers.html">  Heathers </a></li>
+            <li><a href="ThePhantomOfTheOpera.html"> The Phantom of the Opera  </a></li>
+            <li><a href="DearEvanHansen.html">  Dear Evan Hansen  </a></li>
+            <li><a href="ContactUs.html">  Contact Us </a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Section -->
+        <h1>Contact Us</h1>
+        
+        <form action="">
+        <h3>Personal Details</h3>
+            First Name <br>
+            <input type="text" name="firstname" size="20">
+            <br>
+            Surname <br>
+            <input type="text" name="surname" size="20">
+            <br>
+            Age <br>
+            <input type="radio" name="age" size="20"> under 20
+            <input type="radio" name="age" size="20 - 40"> 20 -40
+            <input type="radio" name="age" size=">40"> over 40
+            <input type="radio" name="age" size="other"> prefer not to say
+            <br>
+            Address<br>
+            <input type="text" name="address" size="20">
+            <br><br>
+
+        <h3>Favourite Musical</h3>
+            Select your favourite musical: <br>
+            <select name="Favourite Musical" required>
+                <option value="Select a musical"> Select a musical</option>
+                <option value="Heathers"> Heathers </option>
+                <option value="The Phantom Of The Opera"> The Phantom Of The Opera </option>
+                <option value="Dear Evan Hansen"> Dear Evan Hansen </option>
+            </select>
+        
+        <h3>Please rate the following: 1(poor) to 5(excellent)</h3>
+            How easy is this to navigate?
+            <input type="number" name="ease" min="1" max="5" required><br>
+            
+        
+        <input type="submit">
+
+        </form>
+
+        <!-- Footer Section-->
+        <footer>
+            <p>This is the footer</p> 
+        </footer>
+    </body>
+</html>

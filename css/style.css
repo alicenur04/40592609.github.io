@@ -1,0 +1,95 @@
+html {
+    font-family: system-ui;
+}
+
+/*Background Colours*/
+body, header{background-color:lightgrey;}
+nav, footer{background-color:lightslategrey;}
+main{background-color: slategray;}
+
+/*Dimensions*/
+body {width: 900px;}
+header, footer {height:90px;}
+
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:90px;
+} 
+
+body {
+    min-height: auto;
+    margin: 0;
+    font-size: 1.25rem;
+    background: var(1.25rem);
+    width: 900px;
+}
+
+nav {
+    height: 90px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+ 
+nav ul li {
+    float: left;
+    width: 160px;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    width: 115px;
+}
+
+
+h1 {
+    margin:auto;
+    margin-top:50px;
+    text-align: left;
+}
+
+h2 {
+    margin:auto;
+    margin-top:45px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 170px;
+    margin: 60px;
+}
+
+.banner {
+    float: right;
+    height: 90px;
+    width: 550px;
+}
+
+main {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+main p {
+    padding:10px
+}
+
+
+nav, main, footer {
+    clear:both
+}
+
+
+footer {
+    height:90px;
+    padding-left:10px;
+    padding-top:20px;
+}
+
+form {
+    padding: 10px;
+}
