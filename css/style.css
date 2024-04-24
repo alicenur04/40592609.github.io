@@ -1,5 +1,8 @@
 html {
     font-family: system-ui;
+    display: table;
+    margin: auto;
+    height; 100%;
 }
 
 /*Background Colours*/
@@ -8,8 +11,6 @@ nav, footer{background-color:lightslategrey;}
 main{background-color: slategray;}
 
 /*Dimensions*/
-
-
 header, footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     height:90px;
@@ -17,10 +18,11 @@ header, footer {
 
 body {
     min-height: auto;
-    /*margin: 0;*/
     font-size: 1.25rem;
     background: var(1.25rem);
-    /*width: 900px;*/
+    width: 1000px;
+    height: inherit;
+    display: table-cell;
     vertical-align: middle;
 }
 
@@ -65,7 +67,6 @@ img {
 .banner {
     float: right;
     height: 90px;
-    width: 550px;
 }
 
 main {
@@ -84,7 +85,6 @@ nav, main, footer {
 
 
 footer {
-    height:90px;
     padding-left:10px;
     padding-top:20px;
 }
