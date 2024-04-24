@@ -1,5 +1,6 @@
 html {
     font-family: system-ui;
+    height: 100%;
 }
 
 /*Background Colours*/
@@ -23,7 +24,7 @@ body {
     font-size: 1.25rem;
     background: var(1.25rem);
     width: 900px;
-    align: center;
+    vertical-align: middle;
 }
 
 nav {
