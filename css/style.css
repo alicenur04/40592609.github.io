@@ -8,11 +8,9 @@ nav, footer{background-color:lightslategrey;}
 main{background-color: slategray;}
 
 /*Dimensions*/
-body {width: 900px;}
-header, footer {height:90px;}
 
 
-header {
+header, footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     height:90px;
 } 
